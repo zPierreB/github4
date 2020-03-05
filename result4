@@ -1,0 +1,27 @@
+:~/quetes/shell/github4$ git pull
+remote: Enumerating objects: 5, done.
+remote: Counting objects: 100% (5/5), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Dépaquetage des objets: 100% (3/3), fait.
+Depuis https://github.com/zPierreB/github4
+   d536b19..5e32940  master     -> origin/master
+Mise à jour d536b19..5e32940
+error: Vos modifications locales aux fichiers suivants seraient écrasées par la fusion :
+	readme.txt
+Veuillez valider ou remiser vos modifications avant la fusion.
+Abandon
+:~/quetes/shell/github4$ git add .
+:~/quetes/shell/github4$ git commit -m "resol conflit"
+[master ec77e0c] resol conflit
+:~/quetes/shell/github4$ git pull
+Déjà à jour.
+:~/quetes/shell/github4$ git push origin master
+Username for 'https://github.com': zPierreB
+Password for 'https://zPierreB@github.com': 
+Décompte des objets: 6, fait.
+Delta compression using up to 4 threads.
+Compression des objets: 100% (3/3), fait.
+Écriture des objets: 100% (6/6), 575 bytes | 575.00 KiB/s, fait.
+Total 6 (delta 0), reused 0 (delta 0)
+To https://github.com/zPierreB/github4.git
+   5e32940..ec77e0c  master -> master
